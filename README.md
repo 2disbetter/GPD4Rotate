@@ -27,5 +27,7 @@ You will need to add a an exec-once command and a key combo line to your hyprlan
 bind = SUPER, R, exec, ~/.config/hypr/toggle-rotation.sh
 exec-once = GPD4Rotate
 ```
-Restart your ocmputer or relaunch Hyprland. This will allow you to use your key combo to enable and disable rotation. 
+Beyond this you will need to change the initial orientation of both the monitor and touchscreen (transform 3). As the format changes with updates I am only mentioning this because it still needs to be implemented. Or you could allow the app to handle the initial rotation where you would rotate and then go back to landscape. Clunky, but would work. 
+
+Restart your computer or relaunch Hyprland. This will allow you to use your key combo to enable and disable rotation. 
 
